@@ -12,7 +12,9 @@
 
 .card {
   width: 18rem;
+  width: 450px;
 }
+
 section {
   display: flex;
   flex-direction: column;
@@ -22,4 +24,5 @@ section {
 
 #card_one-post {
   margin: auto;
+  width: 800px;
 }
