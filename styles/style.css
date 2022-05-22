@@ -12,7 +12,7 @@
 }
 
 .card {
-  width: 18rem;
+  width: 450px;
 }
 
 section {
@@ -26,9 +26,5 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#card_one-post {
-  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

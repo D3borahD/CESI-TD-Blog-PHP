@@ -35,6 +35,9 @@
 ?>
 
 <div class="container" >
+    <section>
+
+    
     <article id="card_one-post" class="card">        
         <div class="card-body">
             <!--SECURITE : failles XSS -->
@@ -46,6 +49,7 @@
         <img src="<?= $post->path_image ?>" alt="<?= "image de l'article  " . $post->title ?>">
     </article>
     <a href="affichage_posts.php">Page d'affichage du blog</a>
+    </section>
 </div>
 
 <?php   @include_once('components/footer.php');
